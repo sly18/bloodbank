@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b6"
+    tools:context=".MakeRequestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+
+            android:layout_marginRight="10dp"
+            android:text="Write request or upload message to seek donation"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <EditText
+                android:id="@+id/edt_message"
+                android:layout_width="385dp"
+                android:layout_height="213dp"
+                android:layout_gravity="top"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:cursorVisible="false"
+                android:gravity="top"
+                android:hint="Message"
+                android:minLines="10"
+
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp" />
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="10"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/baseline_image_24" />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="181dp"
+                android:layout_height="136dp"
+                android:backgroundTint="@color/white"
+
+                android:gravity="center"
+                android:text="Upload image"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50sp"
+            android:id="@+id/request"
+
+            android:backgroundTint="#931414"
+
+            android:text="Request"
+
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+
+            android:textColorHint="@color/black"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</ScrollView>

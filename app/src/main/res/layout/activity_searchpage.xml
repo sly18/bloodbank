@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b6"
+    tools:context=".SearchPageActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+
+            android:textStyle="bold"
+            android:text="Any blood request can be found"
+            android:textColor="#730F31"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txchoose"
+            android:layout_width="460dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="10dp"
+
+
+            android:text="Choose City"
+            android:textColor="@color/black"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="394dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:hint="eg.Nairobi"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/grp"
+            android:layout_width="379dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="10dp"
+            android:text="Blood Group"
+            android:textColor="@color/black"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/bloodgroup"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:hint="eg..A+"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnDonor"
+            android:layout_width="395dp"
+            android:layout_height="79dp"
+            android:textSize="20sp"
+            android:backgroundTint="#601919"
+            android:text="Find Donor" />
+    </LinearLayout>
+
+</ScrollView>

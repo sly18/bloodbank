@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/b6"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="385dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="20sp"
+
+        android:layout_marginRight="20sp"
+        android:layout_weight="1"
+        android:ems="10"
+
+        android:hint="Username"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edt_EmailAddress"
+        android:layout_width="372dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="20sp"
+
+        android:layout_marginRight="20sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:textSize="30sp" />
+
+
+    <EditText
+        android:id="@+id/edt_Password"
+        android:layout_width="380dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="20sp"
+
+        android:layout_marginRight="20sp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/but_login"
+        android:layout_width="311dp"
+        android:layout_height="8dp"
+        android:layout_marginLeft="50sp"
+
+        android:layout_marginRight="50sp"
+        android:layout_weight="1"
+
+        android:backgroundTint="#982E2E"
+        android:text="LogIn"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text_log"
+        android:layout_width="372dp"
+        android:layout_height="365dp"
+
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_weight="1"
+        android:text="Don't have an account.Click to  register"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</LinearLayout>

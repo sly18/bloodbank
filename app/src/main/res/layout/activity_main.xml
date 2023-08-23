@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/b6"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edt_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+
+        android:layout_marginRight="20sp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Username"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+
+
+
+        android:textSize="30sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+
+    <EditText
+        android:id="@+id/edt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+
+        android:layout_marginRight="20sp"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:textSize="30sp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edt_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+
+        android:layout_marginRight="20sp"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:textColorHint="@color/black"
+        android:layout_marginRight="20sp"
+        android:ems="10"
+
+        android:textSize="30sp"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edt_blood"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+
+        android:textSize="30sp"
+        android:textColorHint="@color/black"
+        android:hint="Blood Group"/>
+
+
+    <EditText
+        android:id="@+id/edt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+
+        android:layout_marginRight="20sp"
+        android:ems="10"
+        android:hint="Phone Number(verifiable)"
+        android:inputType="phone"
+        android:textColorHint="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/but_reg"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+
+        android:layout_marginRight="50sp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        android:backgroundTint="#A81E1E"
+        android:text="Register" />
+
+
+    <TextView
+        android:id="@+id/txt_reg"
+        android:layout_width="396dp"
+        android:layout_height="36dp"
+
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+
+        android:text="Have an account.Click to logIn"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

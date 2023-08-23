@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pulseplus">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/b1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/b1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PulsePlus">
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <!-- Activities -->
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MakeRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <!-- Parcelable classes -->
+        <activity
+            android:name=".User"
+            android:exported="false" />
+        <activity
+            android:name=".Request"
+            android:exported="false" />
+    </application>
+
+</manifest>
